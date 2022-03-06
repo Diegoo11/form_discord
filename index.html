@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="body">
+        <div class="title">
+            <span id="titulo1">Speaker Submission</span>
+            
+            <span id="titulo2">Want to speak at our fake conference? <br> Fill out this form</span>
+        </div>
+        <br>
+        <form>
+            <div class="input">
+                <label for="username">Name</label>
+                <div class="talk"><input type="text" id="username"></div>
+            </div><br>
+            <div class="input">
+                <label for="useremail">Email</label>
+                <div class="talk"><input type="email" id="useremail" placeholder="example@gmail.com"></div>
+            </div><br>
+            <div class="inputtalk">
+                <span class="texttalk">Type of Talk</span>
+                <span class="talk">
+                    <div>
+                        <input type="radio" name="talk" id="usertalk1" checked>
+                        <label for="usertalk1">Main Stage</label>
+                    </div>
+                    
+                    <div>
+                        <input type="radio" name="talk" id="usertalk2">
+                        <label for="usertalk2">Workshop</label>
+                    </div>
+                </span>
+            </div>
+            <br>
+            <div class="inputtalk hola">
+                <span class="texttalk">T-Shirt Size</span>
+                <span class="talk">
+                    <select name="size" id="size">
+                        <option value="">Small</option>
+                        <option value="M">Medium</option>
+                        <option value="">Lange</option>
+                        <option value="XL">ExtraLange</option>
+                    </select>
+                </span>
+            </div>
+            <br>
+            <div class="input xd">
+                <label for="useremail">Abstract</label>
+                <div class="talk"><textarea name="abstract" id="nose" cols="20" rows="10"></textarea></div>
+            </div>
+            <div class="input text2">
+                <label for="useremail"></label>
+                <div class="text1">Describe your talk in 50 words or less</div>
+            </div><br>
+            <div class="input text4">
+                <input type="checkbox" class="text4">
+                <div class="text5">I'm actually avalible the date of the talk</div>
+            </div><br>
+            <div class="input text6">
+                <button type="submit">Submit</button>
+                
+            </div><br>
+        </form>
+    </div>
+</body>
+</html>
